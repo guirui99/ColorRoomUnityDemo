@@ -1,2 +1,0 @@
-# ColorRoomUnityDemo
-普通Unity3D彩色房间作业项目

@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1024 height=720 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1280 height=720 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/webGL.loader.js";
+      var loaderUrl = buildUrl + "/WebGL_color.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/webGL.data",
-        frameworkUrl: buildUrl + "/webGL.framework.js",
-        codeUrl: buildUrl + "/webGL.wasm",
+        dataUrl: buildUrl + "/WebGL_color.data",
+        frameworkUrl: buildUrl + "/WebGL_color.framework.js",
+        codeUrl: buildUrl + "/WebGL_color.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "ColorRoomRotateDemo",
@@ -104,7 +104,7 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "1024px";
+        canvas.style.width = "1280px";
         canvas.style.height = "720px";
       }
 
